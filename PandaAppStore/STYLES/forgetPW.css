@@ -1,0 +1,47 @@
+.forget {
+  position: relative;
+  height: 750px;
+  width: 100%;
+  background-color: #faf0dd;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 2em;
+  background-color: #fdfdff;
+  border-radius: 0.5em;
+  box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
+}
+
+.forget input[type="text"],
+.forget select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.forget input[type="submit"] {
+  background-color: #faf0dd;
+  color: #b8860b;
+  text-align: center;
+  font-size: 16px;
+  border-color: #b8860b;
+  border-radius: 12px;
+  padding: 12px 28px;
+}
+
+.C_button--L {
+  width: 20%;
+  height: 20%;
+}

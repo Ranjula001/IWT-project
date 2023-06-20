@@ -1,0 +1,94 @@
+ul.cate-menu {
+  margin: 0;
+  padding: 0;
+  background-color: #cecece;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.category {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #cecece;
+  border: none;
+  border-radius: 50px / 50px;
+  color: rgb(8, 0, 0);
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.category:hover {
+  background-color: #fffff0;
+}
+
+li.cate-menu {
+  float: left;
+}
+
+.bttn1 {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #cecece;
+  border: none;
+  border-radius: 50px / 50px;
+  color: rgb(8, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.apptype {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #cecece;
+  border: none;
+  border-radius: 50px / 50px;
+  color: rgb(8, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.apptype:hover {
+  background-color: #fffff0;
+}
+
+.App {
+  text-decoration: dimgray;
+  font-family: cursive;
+  font-size: 120%;
+  border-style: groove;
+  border-radius: 0%;
+}
+.App:hover {
+  background-color: ivory;
+}
+
+.download {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #cecece;
+  border: none;
+  border-radius: 50px / 50px;
+  color: rgb(8, 0, 0);
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.download:hover {
+  background-color: lightslategray;
+}

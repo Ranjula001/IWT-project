@@ -1,0 +1,180 @@
+* {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+ul.custom-menu {
+  margin: 0;
+  padding: 0;
+  background-color: #faf0dd;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+li.custom-menu {
+  float: left;
+}
+
+li a {
+  display: block;
+  width: 100px;
+  height: 25px;
+  background: rgba(255, 0, 0, 0);
+  border-radius: 50px / 50px;
+  color: white;
+  text-align: center;
+  padding: 16.8px;
+  text-decoration: none;
+  color: #b8860b;
+}
+
+li a:hover {
+  background-color: #fffff0;
+}
+
+li.custom-circle {
+  float: none;
+  position: absolute;
+  top: 1.25%;
+  left: 50%;
+  height: 50px;
+  width: 50px;
+
+  background-image: "IMAGE/LMain.png";
+  border-radius: 50%;
+}
+
+li.custom-sbar {
+  float: right;
+  display: flex;
+  cursor: pointer;
+  visibility: inherit;
+  border-radius: 50;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+li.custom-sbar:hover,
+li.custom-sbar:focus {
+  border: 1.5px solid #009688;
+  background-color: pink;
+  border-radius: 50;
+}
+
+li.custom-circle2 {
+  float: right;
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: "IMAGE/footerBack.jpg";
+}
+
+.center-text {
+  text-align: center;
+}
+
+.social {
+  justify-content: space-between;
+}
+
+/*drag and drop*/
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  padding: 80px 0px 35px 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+  font-size: 10px;
+}
+.files input:focus {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #92b0b3;
+}
+.files {
+  position: relative;
+}
+.files:after {
+  pointer-events: none;
+  position: absolute;
+  top: 30px;
+  left: 35%;
+  width: 40px;
+  right: 0;
+  height: 46px;
+  content: "";
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.color input {
+  background-color: #f1f1f1;
+}
+
+/*payment*/
+.credit-card-box .panel-title {
+  display: inline;
+  font-weight: bold;
+}
+.credit-card-box .form-control.error {
+  border-color: red;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+  display: block;
+}
+.credit-card-box .display-table {
+  display: table;
+}
+.credit-card-box .display-tr {
+  display: table-row;
+}
+.credit-card-box .display-td {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.credit-card-box .panel-heading img {
+  min-width: 180px;
+}
+
